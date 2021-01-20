@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Counter from './hello/Counter';
+import APP from './App';
+//import ToDoInput from './todo/ToDoInput';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Counter/>
+    <APP/>
   </React.StrictMode>,
   document.getElementById('root')
 );

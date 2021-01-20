@@ -1,18 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './calc/Calculator'
+import NumberProvider from './calc/NumberProvider'
+import ToDoInput from './todo/ToDoInput'
 
-const App =()=> {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-
-          안녕 리액트 !!
-        
-     
-      </header>
-    </div>
-  );
-}
+const App =()=>  (
+  <ToDoInput/>
+ 
+)
 
 export default App;
